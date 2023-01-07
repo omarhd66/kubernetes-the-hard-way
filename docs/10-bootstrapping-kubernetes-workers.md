@@ -218,7 +218,7 @@ RestartSec=5
 WantedBy=multi-user.target
 EOF
 ```
-
+kubeconfig contains the certificate used by kubelet to connect to kube-apiserver 
 ### Configure the Kubernetes Proxy
 On worker-1:
 
