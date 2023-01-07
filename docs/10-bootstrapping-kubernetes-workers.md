@@ -191,6 +191,7 @@ tlsPrivateKeyFile: /var/lib/kubernetes/pki/${HOSTNAME}.key
 registerNode: true
 EOF
 ```
+tlsCertFile and tlsPrivateKeyFile are used by client (master-1(kube-apiserver)) to connect to kubelet
 
 > The `resolvConf` configuration is used to avoid loops when using CoreDNS for service discovery on systems running `systemd-resolved`.
 
